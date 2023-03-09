@@ -1,0 +1,38 @@
+.hero-sectn{
+    width: 100%;
+    gap: 2rem;
+    padding: 4rem 4rem;
+    font-family: $primary-font;
+    @media(max-width:768px){
+        flex-direction: column;
+        padding: 1.2rem 1rem;
+    }
+    .left-hero{
+        width: 68%;
+        @media(max-width:768px){
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+        h2{
+            font-size: 34px;
+            line-height: 60px;
+            color: #151515;
+        }
+        p{
+            color: rgb(59, 58, 58);
+        }
+    }
+    .right-hero{
+        width: 32%;
+        background-color: red;
+        padding: .5rem 2rem;
+        @media(max-width:768px){
+            width: 100%;
+        }
+        .top-right-hero{
+            gap: 2rem;
+        }
+    }
+}
