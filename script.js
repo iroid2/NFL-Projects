@@ -35,3 +35,20 @@ for(let i = 0; i < sortBtn.length; i++){
     moboHam.classList.toggle("active")
   });
   
+
+$("#owl-demo").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 4,
+      },
+    },
+  });
