@@ -1,4 +1,4 @@
-.nfl-slider{
+.trending{
     width: 100%;
     padding: .3rem 4rem;
     @media(max-width:768px){
@@ -10,10 +10,10 @@
         margin-top:0;
         margin-bottom: 0;
       }
-    .owl-carousel {
+    .owlTrending {
         width: 100%;
         .item {
-            width: 100%;
+            width: 30%;
             border: .2px solid rgb(165, 163, 163);
             height: 20rem;
             padding: 0rem 0rem;
@@ -23,13 +23,7 @@
             @media(max-width:768px){
                 width: 100%;
             }
-            img{
-                width: 100%;
-                height: 60%;
-                object-fit: cover;
-            }
             .slider-text{
-                padding: 1rem;
                 img{
                     width: 100%;
                     height: 60%;
@@ -47,6 +41,7 @@
                     line-height: 20px;
                 }
             }
+            
         }
     }
 }
