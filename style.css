@@ -61,7 +61,8 @@ a {
 .hero-sectn {
   width: 100%;
   gap: 2rem;
-  padding: 4rem 4rem;
+  padding: 0rem 4rem;
+  padding-top: 4rem;
   font-family: "Source Sans Pro", sans-serif;
 }
 @media (max-width: 768px) {
@@ -136,6 +137,34 @@ a {
 }
 .hero-sectn .right-hero .more-news a {
   align-items: center;
+}
+
+.bluebanner {
+  width: 100%;
+  gap: 20%;
+  padding: 1rem 4rem;
+}
+@media (max-width: 768px) {
+  .bluebanner {
+    padding: 1rem 1rem;
+  }
+}
+.bluebanner .banwrapper {
+  background-color: #013369;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  gap: 20%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .bluebanner .banwrapper {
+    padding: 0.5rem 2rem;
+  }
+}
+.bluebanner a {
+  text-decoration: none;
+  color: white;
 }
 
 body {

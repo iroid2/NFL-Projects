@@ -1,7 +1,8 @@
 .hero-sectn{
     width: 100%;
     gap: 2rem;
-    padding: 4rem 4rem;
+    padding: 0rem 4rem;
+    padding-top: 4rem;
     font-family: $primary-font;
     @media(max-width:768px){
         flex-direction: column;
