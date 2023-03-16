@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    background-color: #013369;
+    padding: 2rem;
+    img{
+        width: 60px;
+    }       
+    p{
+        color: white;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .footer-navi{
+        a{
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 400;
+            color: white;
+            padding: .3rem;
+        }
+    }
+}
