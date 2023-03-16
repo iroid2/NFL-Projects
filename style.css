@@ -351,6 +351,7 @@ a {
   .agents .agents-text-sectn h1 {
     line-height: 40px;
     font-size: 28px;
+    margin-bottom: 0;
   }
 }
 .agents .agents-text-sectn h2 {
