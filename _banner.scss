@@ -1,6 +1,7 @@
 .bluebanner{
     width: 100%;
-    gap: 20%;
+    gap:40%;
+    // background-color: red;
     padding: 1rem 4rem;
     @media(max-width:768px){
         padding: 1rem 1rem;
@@ -9,7 +10,7 @@
         background-color: $primaruy-blue;
         width: 100%;
         padding: .5rem 2rem;
-        gap: 20%;
+        gap:30%;
         font-family: $primary-font;
         font-weight: 700;
         @media(max-width:768px){

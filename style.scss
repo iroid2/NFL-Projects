@@ -15,6 +15,7 @@ body{
     position: relative;
     .navBar{
         width: 100%;
+        z-index: 300;
         font-family: 'Source Sans Pro', sans-serif;
         padding: .7rem 3rem;
         background-color: $primaruy-blue;

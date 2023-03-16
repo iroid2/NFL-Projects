@@ -6,14 +6,16 @@
     }
     h2{
         font-size: 2rem;
+        background-color: red;
         padding: 0;
         margin-top:0;
         margin-bottom: 0;
       }
     .owlTrending {
         width: 100%;
+        z-index: -11;
         .item {
-            width: 30%;
+            width: 40%;
             border: .2px solid rgb(165, 163, 163);
             height: 20rem;
             padding: 0rem 0rem;

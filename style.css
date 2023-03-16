@@ -148,7 +148,7 @@ a {
 
 .bluebanner {
   width: 100%;
-  gap: 20%;
+  gap: 40%;
   padding: 1rem 4rem;
 }
 @media (max-width: 768px) {
@@ -160,7 +160,7 @@ a {
   background-color: #013369;
   width: 100%;
   padding: 0.5rem 2rem;
-  gap: 20%;
+  gap: 30%;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
 }
@@ -244,15 +244,17 @@ a {
 }
 .trending h2 {
   font-size: 2rem;
+  background-color: red;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
 .trending .owlTrending {
   width: 100%;
+  z-index: -11;
 }
 .trending .owlTrending .item {
-  width: 30%;
+  width: 40%;
   border: 0.2px solid rgb(165, 163, 163);
   height: 20rem;
   padding: 0rem 0rem;
@@ -335,6 +337,7 @@ a {
 }
 .agents .agents-text-sectn {
   width: 100%;
+  padding: 3rem;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -344,6 +347,9 @@ a {
   z-index: 200;
   line-height: 30px;
   font-size: 48px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
   font-weight: 700;
   margin-top: 0;
 }
@@ -356,6 +362,9 @@ a {
 }
 .agents .agents-text-sectn h2 {
   line-height: 20px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
   font-size: 24px;
   color: white;
 }
@@ -372,6 +381,7 @@ body {
 }
 body .navBar {
   width: 100%;
+  z-index: 300;
   font-family: "Source Sans Pro", sans-serif;
   padding: 0.7rem 3rem;
   background-color: #013369;
