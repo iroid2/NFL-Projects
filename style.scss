@@ -9,6 +9,7 @@
 @import"./trending";
 @import"./footer";
 @import"./agents";
+@import"./featured";
 body{
     width: 100vw;
     height: 100vh;
@@ -123,6 +124,7 @@ body{
         width: 100%;
         opacity: .9;
         left: 0;
+        z-index: 400;
         right: 0;
         gap: 1.3rem;
         visibility: hidden;
@@ -161,3 +163,16 @@ body{
         visibility: visible;
     }
 }
+.swiper {
+    width: 100%;
+    // height: 300px;
+    .swiper-wrapper{
+      width: 100%;
+      .swiper-slide{
+        width: 100%;
+        img{
+          width: 100%   ;
+        }
+      }
+    }
+  }

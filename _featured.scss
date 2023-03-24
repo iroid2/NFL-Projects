@@ -1,0 +1,63 @@
+.featured{
+    width: 100%;
+    height: 70vh;
+    // background-color: green;
+    @media(max-width:768px){
+        width: 100%;
+    }
+    .custom-btns{
+        width: 100%;
+        background-color: rgb(243, 241, 241);
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        padding:  2rem;
+        svg{
+            transform: rotate(180deg);
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            color: #000000;
+            border-radius: 50%;
+        }
+    }
+    .products{          
+        width: 100%;
+        .swiper{
+            width: 95%;
+            @media(max-width:768px){
+                background-color: red;    
+            }
+            .swiper-wrapper{
+                width: 100%;
+                .swiper-slide{
+                    // background-color: red;
+                    padding-bottom: 1rem;
+                    @media(max-width:768px){
+                        width: 100%;
+                    }
+                    img{
+                        width: 100%;
+                        height: 200px;
+                        object-fit: cover;
+                        @media(max-width:768px){
+                            width: 100%;
+                        }
+                    }
+                    .text-sectn{
+                        
+                        p{
+                            margin-bottom: 0;
+                            padding-top: 0;
+                        }
+                        h5{
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}
