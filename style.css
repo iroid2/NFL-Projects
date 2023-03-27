@@ -125,6 +125,7 @@ a {
 .hero-sectn .right-hero {
   width: 32%;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  height: 100%;
 }
 @media (max-width: 768px) {
   .hero-sectn .right-hero {
@@ -133,9 +134,9 @@ a {
   }
 }
 .hero-sectn .right-hero .top-right-hero {
-  gap: 2rem;
-  font-weight: bold;
+  font-weight: bolder;
   width: 100%;
+  height: 50px;
   display: flex;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   justify-content: space-between;
@@ -148,7 +149,7 @@ a {
 }
 .hero-sectn .right-hero .top-right-hero p {
   width: 33%;
-  padding: 0.3rem 0.2rem;
+  height: 100%;
 }
 .hero-sectn .right-hero .top-right-hero #team-btn, .hero-sectn .right-hero .top-right-hero #team-agency, .hero-sectn .right-hero .top-right-hero #team-sign-btn:onclick {
   border: 2px solid blue;
