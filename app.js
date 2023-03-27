@@ -156,6 +156,8 @@ const swiper = new Swiper('#swiper', {
     teamSignUpBtn.style.border="1px solid blue";
     teamSignUpBtn.style.borderBottom="3px solid blue";
     teamAgencyBtn.style.border="none";
+    teamBtn.style.border="none";
+    
   })
  
   teamBtn.addEventListener(('click'),function(){
@@ -165,4 +167,5 @@ const swiper = new Swiper('#swiper', {
     teamBtn.style.border="1px solid blue";
     teamBtn.style.borderBottom="3px solid blue";
     teamAgencyBtn.style.border="none";
+    teamSignUpBtn.style.border="none";
   })
