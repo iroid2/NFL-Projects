@@ -1,8 +1,0 @@
-<?php
-require("./")
-?>
-
-
-<?php
-require('./')
-?>
