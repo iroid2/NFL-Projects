@@ -100,6 +100,8 @@ a {
   font-size: 34px;
   line-height: 60px;
   color: #151515;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
 }
 .hero-sectn .left-hero p {
   color: rgb(59, 58, 58);
@@ -143,10 +145,8 @@ a {
   }
 }
 .hero-sectn .right-hero .top-right-hero p {
-  width: 33%;
-}
-.hero-sectn .right-hero .top-right-hero p:onclick {
-  border: 2px solid blue;
+  width: 43%;
+  padding: 0.3rem 0.2rem;
 }
 .hero-sectn .right-hero .top-right-hero #team-btn, .hero-sectn .right-hero .top-right-hero #team-agency, .hero-sectn .right-hero .top-right-hero #team-sign-btn:onclick {
   border: 2px solid blue;

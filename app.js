@@ -143,7 +143,8 @@ const swiper = new Swiper('#swiper', {
   teamAgencyBtn.addEventListener(("click"),function(){
     agencyDetails.classList.add('active');
     teamDetails.classList.add('inactive');
-    teamAgencyBtn.style.border="3px solid blue";
+    teamAgencyBtn.style.border="1px solid blue";
+    teamAgencyBtn.style.borderBottom="3px solid blue";
     teamSignUpBtn.style.border="none";
     teamBtn.style.border="none";
   })
@@ -152,7 +153,8 @@ const swiper = new Swiper('#swiper', {
     teamSignUp.classList.add('active');
     agencyDetails.classList.remove('active');
     teamDetails.classList.remove('active');
-    teamSignUpBtn.style.border="2px solid blue";
+    teamSignUpBtn.style.border="1px solid blue";
+    teamSignUpBtn.style.borderBottom="3px solid blue";
     teamAgencyBtn.style.border="none";
   })
  
@@ -160,6 +162,7 @@ const swiper = new Swiper('#swiper', {
     teamDetails.classList.remove('inactive');
     agencyDetails.classList.remove('active');
     teamSignUp.classList.remove('active');
-    teamBtn.style.border="3px solid blue";
+    teamBtn.style.border="1px solid blue";
+    teamBtn.style.borderBottom="3px solid blue";
     teamAgencyBtn.style.border="none";
   })

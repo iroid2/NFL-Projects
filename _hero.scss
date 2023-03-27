@@ -28,6 +28,8 @@
             font-size: 34px;
             line-height: 60px;
             color: #151515;
+            margin-bottom: 0rem;
+            margin-top: 0rem;
         }
 
         p{
@@ -71,10 +73,8 @@
                 width: 100%;
             }
             p{
-                width: 33%;
-                &:onclick{
-                    border: 2px solid blue;
-                }
+                width: 43%;
+                padding: .3rem .2rem;
             }
             #team-btn,#team-agency,#team-sign-btn:onclick{
                 border: 2px solid blue;
