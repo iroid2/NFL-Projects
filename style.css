@@ -167,6 +167,13 @@ a {
 }
 .hero-sectn .right-hero .team-signUp {
   display: none;
+  align-items: center;
+}
+.hero-sectn .right-hero .team-signUp .top-team-sign {
+  text-align: center;
+}
+.hero-sectn .right-hero .team-signUp .bottm-team-btns {
+  gap: 1rem;
 }
 .hero-sectn .right-hero .more-news {
   text-align: center;
