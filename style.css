@@ -137,7 +137,9 @@ a {
   font-weight: bold;
   width: 100%;
   display: flex;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   justify-content: space-between;
+  gap: 0;
 }
 @media (max-width: 768px) {
   .hero-sectn .right-hero .top-right-hero {
@@ -145,7 +147,7 @@ a {
   }
 }
 .hero-sectn .right-hero .top-right-hero p {
-  width: 43%;
+  width: 33%;
   padding: 0.3rem 0.2rem;
 }
 .hero-sectn .right-hero .top-right-hero #team-btn, .hero-sectn .right-hero .top-right-hero #team-agency, .hero-sectn .right-hero .top-right-hero #team-sign-btn:onclick {
