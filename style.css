@@ -122,7 +122,6 @@ a {
 }
 .hero-sectn .right-hero {
   width: 32%;
-  padding: 0.5rem 2rem;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 @media (max-width: 768px) {
@@ -134,15 +133,26 @@ a {
 .hero-sectn .right-hero .top-right-hero {
   gap: 2rem;
   font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 @media (max-width: 768px) {
   .hero-sectn .right-hero .top-right-hero {
     width: 100%;
   }
 }
+.hero-sectn .right-hero .top-right-hero p {
+  width: 33%;
+}
+.hero-sectn .right-hero .top-right-hero p:onclick {
+  border: 2px solid blue;
+}
+.hero-sectn .right-hero .top-right-hero #team-btn, .hero-sectn .right-hero .top-right-hero #team-agency, .hero-sectn .right-hero .top-right-hero #team-sign-btn:onclick {
+  border: 2px solid blue;
+}
 .hero-sectn .right-hero .team-details {
   width: 100%;
-  padding-top: 1rem;
 }
 @media (max-width: 768px) {
   .hero-sectn .right-hero .team-details {
@@ -151,6 +161,12 @@ a {
 }
 .hero-sectn .right-hero .team-details p {
   padding: 0.2rem;
+}
+.hero-sectn .right-hero .agency {
+  display: none;
+}
+.hero-sectn .right-hero .team-signUp {
+  display: none;
 }
 .hero-sectn .right-hero .more-news {
   text-align: center;
@@ -166,6 +182,12 @@ a {
 }
 .hero-sectn .right-hero .more-news a {
   align-items: center;
+}
+.hero-sectn .right-hero .active {
+  display: block;
+}
+.hero-sectn .right-hero .inactive {
+  display: none;
 }
 
 .bluebanner {

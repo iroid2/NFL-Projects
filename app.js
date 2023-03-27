@@ -130,3 +130,36 @@ const swiper = new Swiper('#swiper', {
     lazyLoading:true,
    
   });
+
+  const teamDetails=document.getElementById('team-details');
+  const agencyDetails=document.getElementById('agency');
+  const teamSignUp=document.getElementById('team-sign');
+  const teamBtn=document.getElementById('team-btn');
+  const teamAgencyBtn=document.getElementById('team-agency');
+  const teamSignUpBtn=document.getElementById('team-sign-btn');
+
+
+
+  teamAgencyBtn.addEventListener(("click"),function(){
+    agencyDetails.classList.add('active');
+    teamDetails.classList.add('inactive');
+    teamAgencyBtn.style.border="3px solid blue";
+    teamSignUpBtn.style.border="none";
+    teamBtn.style.border="none";
+  })
+  teamSignUpBtn.addEventListener(("click"),function(){
+
+    teamSignUp.classList.add('active');
+    agencyDetails.classList.remove('active');
+    teamDetails.classList.remove('active');
+    teamSignUpBtn.style.border="2px solid blue";
+    teamAgencyBtn.style.border="none";
+  })
+ 
+  teamBtn.addEventListener(('click'),function(){
+    teamDetails.classList.remove('inactive');
+    agencyDetails.classList.remove('active');
+    teamSignUp.classList.remove('active');
+    teamBtn.style.border="3px solid blue";
+    teamAgencyBtn.style.border="none";
+  })
