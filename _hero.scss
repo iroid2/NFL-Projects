@@ -34,6 +34,7 @@
 
         p{
             color: rgb(59, 58, 58);
+            margin-bottom: 0rem    ;
         }
         .custom-btns{
             width: 100%;
@@ -91,21 +92,38 @@
             p{
                 padding: .2rem;
                 // width: 20%;
-               
-
+               margin-top: .1rem;
+               margin-bottom: .1rem;
+            //    background-color: red;
             }
         }
         .agency{
             display: none;
+            p{
+                padding: .2rem;
+                // width: 20%;
+               margin-top: .1rem;
+               margin-bottom: .1rem;
+            //    background-color: red;
+            }
         }
         .team-signUp{
             display: none;
             align-items: center;
+            
             .top-team-sign{
                 text-align: center;
             }
             .bottm-team-btns{
-                gap: 1rem;
+                gap: .3rem;
+                margin-top: 1rem;
+                button{
+                    padding: .71rem;
+                    background: none;
+                    color: rgb(12, 86, 197);
+                    font-size: .8rem;
+                    font-weight: 900;
+                }
             }
         }
         .more-news{

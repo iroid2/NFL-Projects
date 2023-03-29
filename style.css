@@ -105,6 +105,7 @@ a {
 }
 .hero-sectn .left-hero p {
   color: rgb(59, 58, 58);
+  margin-bottom: 0rem;
 }
 .hero-sectn .left-hero .custom-btns {
   width: 100%;
@@ -164,9 +165,16 @@ a {
 }
 .hero-sectn .right-hero .team-details p {
   padding: 0.2rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 .hero-sectn .right-hero .agency {
   display: none;
+}
+.hero-sectn .right-hero .agency p {
+  padding: 0.2rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 .hero-sectn .right-hero .team-signUp {
   display: none;
@@ -176,7 +184,15 @@ a {
   text-align: center;
 }
 .hero-sectn .right-hero .team-signUp .bottm-team-btns {
-  gap: 1rem;
+  gap: 0.3rem;
+  margin-top: 1rem;
+}
+.hero-sectn .right-hero .team-signUp .bottm-team-btns button {
+  padding: 0.71rem;
+  background: none;
+  color: rgb(12, 86, 197);
+  font-size: 0.8rem;
+  font-weight: 900;
 }
 .hero-sectn .right-hero .more-news {
   text-align: center;
@@ -518,6 +534,10 @@ a {
   margin-bottom: 0;
 }
 
+.newp-body {
+  background-color: red;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -551,11 +571,14 @@ body .navBar .left-sectn {
     justify-content: space-between;
   }
 }
-body .navBar .left-sectn img {
+body .navBar .left-sectn a {
   width: 5%;
 }
+body .navBar .left-sectn a img {
+  width: 100%;
+}
 @media (max-width: 768px) {
-  body .navBar .left-sectn img {
+  body .navBar .left-sectn a img {
     width: 10%;
   }
 }
