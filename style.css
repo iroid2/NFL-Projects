@@ -563,7 +563,6 @@ body .navBar {
 body .navBar .left-sectn {
   gap: 1rem;
   width: 50%;
-  background-color: red;
   gap: 1rem;
   display: flex;
 }
