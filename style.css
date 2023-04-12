@@ -563,6 +563,9 @@ body .navBar {
 body .navBar .left-sectn {
   gap: 1rem;
   width: 50%;
+  background-color: red;
+  gap: 1rem;
+  display: flex;
 }
 @media (max-width: 768px) {
   body .navBar .left-sectn {
@@ -571,16 +574,8 @@ body .navBar .left-sectn {
     justify-content: space-between;
   }
 }
-body .navBar .left-sectn a {
+body .navBar .left-sectn img {
   width: 5%;
-}
-body .navBar .left-sectn a img {
-  width: 100%;
-}
-@media (max-width: 768px) {
-  body .navBar .left-sectn a img {
-    width: 10%;
-  }
 }
 body .navBar .left-sectn .mobo-ext-details {
   color: white;
@@ -602,6 +597,8 @@ body .navBar .left-sectn .mobo-ext-details .mobo-nav-links {
   gap: 1rem;
   font-size: 1.1rem;
   align-items: center;
+  background-color: red;
+  display: none;
 }
 body .navBar .left-sectn .mobo-ext-details .watch {
   flex-wrap: wrap;
